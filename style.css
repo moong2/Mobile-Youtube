@@ -28,6 +28,10 @@ body{
 ul{
   list-style:none;
 }
+a{
+  color : var(--white-color);
+  text-decoration:none;
+}
 button,
 button:focus{
   border :none;
@@ -192,5 +196,11 @@ body > .info{
   .infoAndUpNext{
     flex-direction: row;
     margin :var(--padding) 0;
+  }
+  .infoAndUpNext > .info{
+    width : 65%;
+  }
+  .infoAndUpNext .UpNext{
+    width : 35%;
   }
 }
